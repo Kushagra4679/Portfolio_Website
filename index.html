@@ -1,0 +1,939 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/skins/color-1.css" />
+    <link rel="stylesheet" href="css/styleSwitcher.css" />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+      
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>My_Portfolio_Website</title>
+  </head>
+
+  <body class=" leading-5 text-xl font-[Poppins]">
+    <!-- Main container Starts  -->
+    <div class="main-container">
+     
+      <!-- SideBar Starts  -->
+      <div
+        class="sidebar w-64 fixed left-0 top-0 z-10 h-[100%] p-8 space-y-4 flex items-center justify-center border-r-2 sm:hidden xy:hidden"
+      >
+        <div class="logo absolute top-[50px] text-5xl capitalize">
+          <a
+            href="#"
+            class=" font-[700] p-4 text-3xl tracking-[5px] relative"
+            ><span class="font-[Clicker Script]">KUSHAGRA</span></a
+          >
+        </div>
+        <div
+          class="nav-Toggle h-10 w-11 border-2 cursor-pointer fixed left-72 top-5 rounded-md hidden repeat scroll items-center justify-center"
+        >
+          <span class="h-[2px] w-5 bg-orange-500 inline-block relative"> </span>
+        </div>
+        <ul class="nav list-none mt-12">
+          <li class="mb-5 block">
+            <a
+              href="#home"
+              class="text-xl font-[600] block  pt-1 pr-4 border-b-2  active:text-red-700"
+              ><i class="fa fa-home mr-4"></i>Home</a
+            >
+          </li>
+          <li class="mb-5 block">
+            <a
+              href="#about"
+              class="text-xl font-[600] block  pt-1 pr-4 border-b-2  active:text-red-700"
+              ><i class="fa fa-user mr-4"></i>About</a
+            >
+          </li>
+          <li class="mb-5 block">
+            <a
+              href="#services"
+              class="text-xl font-[600] block  pt-1 pr-4 border-b-2  active:text-red-700"
+              ><i class="fa fa-list mr-4"> </i>Services</a
+            >
+          </li>
+          <li class="mb-5 block">
+            <a
+              href="#portfolio"
+              class="text-xl font-[600] block  pt-1 pr-4 border-b-2  active:text-red-700"
+              ><i class="fa fa-briefcase mr-4"></i>Portfolio</a
+            >
+          </li>
+          <li class="mb-5 block">
+            <a
+              href="#contact"
+              class="text-xl font-[600] block  pt-1 pr-4 border-b-2  active:text-red-700"
+              ><i class="fa fa-comments mr-4"></i>Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- SideBar Ends  -->
+      <!-- Main Content Starts   -->
+      <div class="main-content pl-56 sm:pl-[0px] xy:pl-[0px]">
+        <!-- Home Section Starts   -->
+        <section class="home section min-h-[100vh] block left-270px top-0 right-0 z-0 opacity-100 " id="home">
+          <!-- pr-7 bg-[#f2f2fc] min-h-[100vh] block fixed left-[270px] right-0 top-0 z-0 opacity-[1]  -->
+          <div class="contain max-w-5xl w-[100%] m-auto">
+            <div
+              class="row flex flex-wrap -ml-4 -mr-4 relative items-center md:px-3 lg:px-3"
+            >
+              <div
+                class="home-info flex-grow-0 flex-shrink-0 basis-[60%] max-w-[60%] pl-4 pr-4 sm:basis-[100%] sm:max-w-[100%] sm:mt-[-14rem] xy:basis-[100%] xy:max-w-[100%] xy:mt-[-14rem] md:basis-[100%] md:max-w-[100%]"
+              >
+                <h3 class="hello text-3xl my-4">
+                  Hello, My Name Is
+                  <span class="font-['cursive'] text-3xl font-bold"
+                    >KUSHAGRA</span
+                  >
+                </h3>
+                <h3 class="my-profession text-3xl my-4">
+                  I am a <span class="typing">Web Developer</span>
+                </h3>
+                <p class="mb-[70px] text-xl md:text-justify">
+                  A learning Web Developer, with good problem-solving skills and
+                  ability to perform well in a team. Passionate about coding and
+                  exploring new technologies in WEB DEVELOPMENT.
+                </p>
+                <a
+                  href="#contact"
+                  class="btn hire-me text-lg font-medium py-3 px-9 text-white rounded-3xl inline-block whitespace-nowrap border-none transition-all delay-200 ease-linear hover:scale-[1.05]"
+                  >Hire Me</a
+                >
+              </div>
+              <div
+                class="home-img h-[400px] flex-grow-0 flex-shrink-0 basis-[40%] max-w-[40%] text-center pl-4 pr-4 relative sm:hidden xy:hidden md:hidden"
+              >
+                <img
+                  class="m-auto rounded-lg"
+                  src="./Assets/img/User_png.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Home Section Ends   -->
+        <!-- About Starts    -->
+        <section class="about section" id="about">
+          <div class="container pt-[60px] pb-[70px]">
+            <div class="row">
+              <div
+                class="section-title pl-4 pr-4 flex-grow-0 flex-shrink-0 basis-[100%] max-w-[100%] mb-16"
+              >
+                <h2 class="text-3xl font-bold relative">
+                  About Me
+                </h2>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="about-content flex-grow-0 flex-shrink-0 basis-[100%] max-w-[100%] pl-4 pr-4"
+              >
+                <div class="row">
+                  <div
+                    class="about-text flex-grow-0 flex-shrink-0 basis-[100%] max-w-[100%] pr-4 pl-4"
+                  >
+                    <h3 class="text-2xl mb-4 font-bold text-[#020203]">
+                      I'm Kushagra and
+                      <span class="">Web Developer</span>
+                    </h3>
+                    <p
+                      class="text-lg text-[#020203] sm:text-justify xy:text-justify md:text-justify"
+                    >
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quas tempore, officia recusandae consectetur vero et
+                      repellat illo dolor consequuntur provident quam vel enim
+                      autem officiis?
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="row flex items-center justify-center md:items-center md:justify-center"
+                >
+                  <div
+                    class="personal-info flex flex-grow-0 flex-shrink-0 basis-[60%] max-w-[60%] pl-4 pr-4 mt-10 sm:hidden xy:hidden md:basis-[50%] md:max-w-[50%]"
+                  >
+                    <div class="row">
+                      <div class="info-item">
+                        <p>Age : <span>18</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>Freelance : <span>Available</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>Website : <span>www.kushagra.com</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>Email : <span>kushagrathegame1@gmail.com</span></p>
+                      </div>
+                    </div>
+                    <div class="row md:hidden">
+                      <div class="info-item">
+                        <p>Degree : <span>Under-Graduate</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>BirthDay : <span class="">11 Sep 2003</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>Phone : <span>70XXXXXX19</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>City : <span>Muzaffarpur</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="skills flex-grow-0 flex-shrink-0 basis-[40%] max-w-[40%] pl-4 pr-4 mt-10 sm:max-w-[100%] sm:basis-[100%] sm:m-auto xy:max-w-[100%] xy:basis-[100%] xy:m-auto"
+                  >
+                    <div class="row">
+                      <div class="skill-item pl-4 pr-4 mb-6 max-w-[100%]">
+                        <h5
+                          class="font-semibold text-base leading-10 capitalize"
+                        >
+                          HTML
+                        </h5>
+                        <div
+                          class="progress  h-2 rounded-md w-[100%] relative"
+                        >
+                          <div
+                            class="progress-in absolute left-0 top-0 h-[100%] rounded-md bg-red-600"
+                            style="width: 65%"
+                          ></div>
+                          <div
+                            class="skill-percent absolute right-0 -top-10 font-normal leading-10"
+                          >
+                            65%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item pl-4 pr-4 mb-4 max-w-[100%]">
+                        <h5
+                          class="font-semibold text-base leading-10 capitalize"
+                        >
+                          CSS
+                        </h5>
+                        <div
+                          class="progress  h-2 rounded-md w-[100%] relative"
+                        >
+                          <div
+                            class="progress-in absolute left-0 top-0 h-[100%] rounded-md bg-yellow-300"
+                            style="width: 70%"
+                          ></div>
+                          <div
+                            class="skill-percent absolute right-0 -top-10 font-normal leading-10"
+                          >
+                            70%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item pl-4 pr-4 mb-4 max-w-[100%]">
+                        <h5
+                          class="font-semibold text-base leading-10 capitalize"
+                        >
+                          JS
+                        </h5>
+                        <div
+                          class="progress  h-2 rounded-md w-[100%] relative"
+                        >
+                          <div
+                            class="progress-in absolute left-0 top-0 h-[100%] rounded-md bg-blue-600"
+                            style="width: 40%"
+                          ></div>
+                          <div
+                            class="skill-percent absolute right-0 -top-10 font-normal leading-10"
+                          >
+                            40%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item pl-4 pr-4 mb-4 max-w-[100%]">
+                        <h5
+                          class="font-semibold text-base leading-10 capitalize"
+                        >
+                          Tailwind
+                        </h5>
+                        <div
+                          class="progress  h-2 rounded-md w-[100%] relative"
+                        >
+                          <div
+                            class="progress-in absolute left-0 top-0 h-[100%] rounded-md bg-pink-600"
+                            style="width: 80%"
+                          ></div>
+                          <div
+                            class="skill-percent absolute right-0 -top-10 font-normal leading-10"
+                          >
+                            80%
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div
+                    class="buttons px-3 py-3 mt-5 space-x-4 space-y-4 sm:space-x-0 xy:space-x-0"
+                  >
+                    <a
+                      href="#"
+                      class="btn text-lg font-medium py-3 px-9 text-white rounded-3xl inline-block whitespace-nowrap border-none bg-red-500 transition-all delay-200 ease-linear hover:scale-[1.05] sm:p-3 xy:p-3"
+                      >Download CV</a
+                    >
+                    <a
+                      href="#contact"
+                      class="btn text-lg font-medium py-3 px-9 text-white rounded-3xl inline-block whitespace-nowrap border-none bg-red-500 transition-all delay-200 ease-linear hover:scale-[1.05] sm:py-3 sm:px-4 sm:justify-center xy:py-3 xy:px-4 xy:justify-center"
+                      >Hire Me</a
+                    >
+                  </div>
+                </div>
+                <div class="row flex lg:ml-7">
+                  <div
+                    class="education pr-4 pl-4 basis-[50%] max-w-[50%] mt-7 sm:max-w-[100%] sm:basis-[100%] sm:p-0 xy:max-w-[100%] xy:basis-[100%] xy:p-0 md:max-w-[100%] md:basis-[100%]"
+                  >
+                    <h3
+                      class="title text-2xl ml-4 mb-7 font-bold"
+                    >
+                      Education
+                    </h3>
+                    <div class="row">
+                      <div class="timeline-box pr-4 pl-4 max-w-[100%]">
+                        <div
+                          class="timeline shadow-dark bg-white py-8 px-4 border-2 rounded-lg w-[100%] relative"
+                        >
+                          <div class="timeline-item relative pl-9 pb-12">
+                            <div
+                              class="circle-dot absolute left-0 top-0 h-4 w-4 rounded-full "
+                            ></div>
+                            <h3
+                              class="timeline-date font-normal text-sm mb-3 "
+                            >
+                              <i class="fa fa-calendar mr-1"></i> 2020 - 2024
+                            </h3>
+                            <h4
+                              class="timeline-title font-bold text-xl mb-4 capitalize "
+                            >
+                              B.tech in CSE
+                            </h4>
+                            <p
+                              class="timeline-details leading-6 text-base text-justify "
+                            >
+                              Currently, pursuing my Bachelors Degree from Chandigarh
+                              University, Punjab. I am interested in the new 
+                              generation Web-Technologies and Frameworks like NextJs,
+                              MiddleWare, Context APIs and more.
+                            </p>
+                          </div>
+                                                   
+                          <div class="timeline-item relative pl-9 pb-12">
+                            <div
+                              class="circle-dot absolute left-0 top-0 h-4 w-4 rounded-full "
+                            ></div>
+                            <h3
+                              class="timeline-date font-normal text-sm mb-3 "
+                            >
+                              <i class="fa fa-calendar mr-1"></i> 2018 - 2020
+                            </h3>
+                            <h4
+                              class="timeline-title font-bold text-xl mb-4 capitalize "
+                            >
+                              12th Grade
+                            </h4>
+                            <p
+                              class="timeline-details leading-6 text-base text-justify "
+                            >
+                            I have completed my class 12th from RPS Public School (CBSE)
+                            in PCM Stream and have secured 92 precentage.
+
+
+                              
+                            </p>
+                          </div>
+
+                          <div class="timeline-item pb-0 relative pl-9">
+                            <div
+                              class="circle-dot absolute left-0 top-0 h-4 w-4 rounded-full "
+                            ></div>
+                            <h3
+                              class="timeline-date font-normal text-sm mb-3 "
+                            >
+                              <i class="fa fa-calendar mr-1"></i> 2017
+                            </h3>
+                            <h4
+                              class="timeline-title font-bold text-xl mb-4 capitalize "
+                            >
+                              10th Grade
+                            </h4>
+                            <p
+                              class="timeline-details leading-6 text-base text-justify "
+                            >
+                              I have done my class 10th schooling from DAV Public School
+                              Muzaffarpur, Bihar.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="Experience pr-4 pl-4 basis-[50%] max-w-[50%] mt-7 sm:hidden xy:hidden md:hidden"
+                  >
+                    <h3
+                      class="title text-2xl ml-4 mb-7 font-bold "
+                    >
+                      Experience
+                    </h3>
+                    <div class="row">
+                      <div class="timeline-box pr-4 pl-4 max-w-[100%]">
+                        <div
+                          class="timeline shadow-dark bg-white py-8 px-4 border-2 rounded-lg w-[100%] relative"
+                        >
+                          <div class="timeline-item relative pl-9 pb-12">
+                            <div
+                              class="circle-dot absolute left-0 top-0 h-4 w-4 rounded-full "
+                            ></div>
+                            <h3
+                              class="timeline-date font-normal text-sm mb-3 "
+                            >
+                              <i class="fa fa-calendar mr-1"></i> 2020 - 2024
+                            </h3>
+                            <h4
+                              class="timeline-title font-bold text-xl mb-4 capitalize "
+                            >
+                              B.tech in CSE
+                            </h4>
+                            <p
+                              class="timeline-details leading-6 text-base text-justify "
+                            >
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Sequi quibusdam, at aliquid,
+                              inventore rerum totam commodi, exercitationem
+                              doloremque voluptatem reiciendis cum! Animi
+                              reiciendis voluptatibus distinctio.
+                            </p>
+                          </div>
+
+                          <div class="timeline-item relative pl-9 pb-12">
+                            <div
+                              class="circle-dot absolute left-0 top-0 h-4 w-4 rounded-full "
+                            ></div>
+                            <h3
+                              class="timeline-date font-normal text-sm mb-3 "
+                            >
+                              <i class="fa fa-calendar mr-1"></i> 2020 - 2024
+                            </h3>
+                            <h4
+                              class="timeline-title font-bold text-xl mb-4 capitalize "
+                            >
+                              B.tech in CSE
+                            </h4>
+                            <p
+                              class="timeline-details leading-6 text-base text-justify "
+                            >
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Sequi quibusdam, at aliquid,
+                              inventore rerum totam commodi, exercitationem
+                              doloremque voluptatem reiciendis cum! Animi
+                              reiciendis voluptatibus distinctio.
+                            </p>
+                          </div>
+
+                          <div class="timeline-item pb-0 relative pl-9">
+                            <div
+                              class="circle-dot absolute left-0 top-0 h-4 w-4 rounded-full "
+                            ></div>
+                            <h3
+                              class="timeline-date font-normal text-sm mb-3 "
+                            >
+                              <i class="fa fa-calendar mr-1"></i> 2020 - 2024
+                            </h3>
+                            <h4
+                              class="timeline-title font-bold text-xl mb-4 capitalize "
+                            >
+                              B.tech in CSE
+                            </h4>
+                            <p
+                              class="timeline-details leading-6 text-base text-justify "
+                            >
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Sequi quibusdam, at aliquid,
+                              inventore rerum totam commodi, exercitationem
+                              doloremque voluptatem reiciendis cum! Animi
+                              reiciendis voluptatibus distinctio.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- About Ends    -->
+        <!-- Services Starts   -->
+        <section class="service section" id="services">
+          <div class="container py-10">
+            <div class="row">
+              <div
+                class="section-title pl-4 pr-4 flex-grow-0 flex-shrink-0 basis-[100%] max-w-[100%] mb-16"
+              >
+                <h2 class="text-3xl font-bold relative">
+                  Services
+                </h2>
+              </div>
+            </div>
+            <div class="row flex sm:block xy:block md:block md:ml-10 lg:ml-10">
+              <!-- Service-Items Starts-->
+              <div
+                class="service-item pl-4 pr-4 mb-7 max-w-[33.33%] sm:block sm:max-w-[100%] xy:block xy:max-w-[100%] md:block md:max-w-[100%] hover:cursor-pointer"
+              >
+                <div
+                  class="service-item-inner border rounded-sm py-8 px-4 text-center transition ease-in-out delay-[35] hover:shadow-lg hover:shadow-slate-400"
+                >
+                  <div
+                    class="icon h-14 w-14 rounded-[50%] block mt-0 mx-auto mb-7 text-center transition ease-in-out delay-[35]"
+                  >
+                    <i
+                      class="fa fa-mobile-alt text-4xl transition ease-in-out delay-[35ms] mt-4 "
+                    ></i>
+                  </div>
+                  <h4 class="text-lg mb-4 font-bold capitalize">
+                    Web Design
+                  </h4>
+                  <p class="text-base leading-6">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptas unde, optio esse nesciunt debitis corporis!
+                  </p>
+                </div>
+              </div>
+              <!-- Service-Items Ends -->
+              <!-- Service-Items Starts-->
+              <div
+                class="service-item pl-4 pr-4 mb-7 max-w-[33.33%] sm:block sm:max-w-[100%] xy:block xy:max-w-[100%] md:block md:max-w-[100%] hover:cursor-pointer"
+              >
+                <div
+                  class="service-item-inner border rounded-sm py-8 px-4 text-center transition ease-in-out delay-[35] hover:shadow-lg hover:shadow-slate-400"
+                >
+                  <div
+                    class="icon h-14 w-14 rounded-[50%] block mt-0 mx-auto mb-7 text-center transition ease-in-out delay-[35]"
+                  >
+                    <i
+                      class="fa fa-laptop-code mt-4 transition ease-in-out delay-[35ms] text-4xl "
+                    ></i>
+                  </div>
+                  <h4
+                    class="text-lg mb-4 font-bold transform-capitalize"
+                  >
+                    Web Design
+                  </h4>
+                  <p class="text-base leading-6">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptas unde, optio esse nesciunt debitis corporis!
+                  </p>
+                </div>
+              </div>
+              <!-- Service-Items Ends -->
+              <!-- Service-Items Starts-->
+              <div
+                class="service-item pl-4 pr-4 mb-7 max-w-[33.33%] sm:block sm:max-w-[100%] xy:block xy:max-w-[100%] md:block md:max-w-[100%] hover:cursor-pointer"
+              >
+                <div
+                  class="service-item-inner border rounded-sm py-8 px-4 text-center transition ease-in-out delay-[35] hover:shadow-lg hover:shadow-slate-400"
+                >
+                  <div
+                    class="icon h-14 w-14 rounded-[50%] block mt-0 mx-auto mb-7 text-center transition ease-in-out delay-[35]"
+                  >
+                    <i
+                      class="fa fa-palette mt-4 transition ease-in-out delay-[35ms] text-4xl "
+                    ></i>
+                  </div>
+                  <h4
+                    class="text-lg mb-4 font-bold transform-capitalize"
+                  >
+                    Web Design
+                  </h4>
+                  <p class="text-base leading-6">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptas unde, optio esse nesciunt debitis corporis!
+                  </p>
+                </div>
+              </div>
+
+              <!-- Service-Items Ends -->
+            </div>
+            <div class="row flex sm:block md:block md:ml-10 lg:ml-10">
+              <!-- Service-Items Starts-->
+              <div
+                class="service-item pl-4 pr-4 mb-7 max-w-[33.33%] sm:block sm:max-w-[100%] xy:block xy:max-w-[100%] md:block md:max-w-[100%] hover:cursor-pointer"
+              >
+                <div
+                  class="service-item-inner border rounded-sm py-8 px-4 text-center transition ease-in-out delay-[35] hover:shadow-lg hover:shadow-slate-400"
+                >
+                  <div
+                    class="icon h-14 w-14 rounded-[50%] block mt-0 mx-auto mb-[30px] text-center transition ease-in-out delay-[35]"
+                  >
+                    <i
+                      class="fa fa-code mt-4 transition ease-in-out delay-[35ms] text-3xl leading-[70px] "
+                    ></i>
+                  </div>
+                  <h4
+                    class="text-lg mb-4 font-bold transform-capitalize"
+                  >
+                    Web Design
+                  </h4>
+                  <p class="text-base leading-6">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptas unde, optio esse nesciunt debitis corporis!
+                  </p>
+                </div>
+              </div>
+              <!-- Service-Items Ends -->
+              <!-- Service-Items Starts-->
+              <div
+                class="service-item pl-4 pr-4 mb-7 max-w-[33.33%] sm:block sm:max-w-[100%] xy:block xy:max-w-[100%] md:block md:max-w-[100%] hover:cursor-pointer"
+              >
+                <div
+                  class="service-item-inner border rounded-lg py-8 px-4 text-center transition ease-in-out delay-[35] hover:shadow-lg hover:shadow-slate-400"
+                >
+                  <div
+                    class="icon h-14 w-14 rounded-[50%] block mt-0 mx-auto mb-7 text-center transition ease-in-out delay-[35]"
+                  >
+                    <i
+                      class="fa fa-search mt-4 transition ease-in-out delay-[35ms] text-4xl "
+                    ></i>
+                  </div>
+                  <h4
+                    class="text-lg mb-4 font-bold transform-capitalize"
+                  >
+                    Web Design
+                  </h4>
+                  <p class="text-base leading-6">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptas unde, optio esse nesciunt debitis corporis!
+                  </p>
+                </div>
+              </div>
+              <!-- Service-Items Ends -->
+              <!-- Service-Items Starts-->
+              <div
+                class="service-item pl-4 pr-4 mb-7 max-w-[33.33%] sm:block sm:max-w-[100%] xy:block xy:max-w-[100%] md:block md:max-w-[100%] hover:cursor-pointer"
+              >
+                <div
+                  class="service-item-inner border rounded-sm py-8 px-4 text-center transition ease-in-out delay-[35] hover:shadow-lg hover:shadow-slate-400"
+                >
+                  <div
+                    class="icon h-14 w-14 rounded-[50%] block mt-0 mx-auto mb-7 text-center transition ease-in-out delay-[35]"
+                  >
+                    <i
+                      class="fa fa-bullhorn mt-4 transition ease-in-out delay-[35ms] text-4xl "
+                    ></i>
+                  </div>
+                  <h4
+                    class="text-lg mb-4 font-bold transform-capitalize"
+                  >
+                    Web Design
+                  </h4>
+                  <p class="text-base leading-6">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptas unde, optio esse nesciunt debitis corporis!
+                  </p>
+                </div>
+              </div>
+              <!-- Service-Items Ends -->
+            </div>
+          </div>
+        </section>
+        <!-- Services Ends   -->
+        <!-- Portfolio Starts   -->
+        <section class="portfolio section" id="portfolio">
+          <div class="container py-10">
+            <div class="row">
+              <div
+                class="section-title pl-4 pr-4 flex-grow-0 flex-shrink-0 basis-[100%] max-w-[100%] mb-16"
+              >
+                <h2 class="text-3xl font-bold relative">
+                  Portfolio
+                </h2>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="portfolio-heading mb-10 pl-4 pr-4 flex basis-[100%] max-w-[100%]"
+              >
+                <h2 class=" font-medium">My Last Projects:</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Portfolio item Starts   -->
+              <div class="portfolio-item">
+                <div
+                  class="portfolio-item-inner border-4 rounded-lg overflow-hidden cursor-pointer"
+                >
+                  <div class="portfolio-img block max-w-[100%]">
+                    <img class="w-[100%]" src="" alt="img" />
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio item Ends   -->
+            </div>
+          </div>
+        </section>
+        <!-- Portfolio Ends   -->
+
+        <!-- Contact section Starts  -->
+        <section class="contact section" id="contact">
+          <div class="container py-10">
+            <div class="row">
+              <div
+                class="section-title pl-4 pr-4 flex-grow-0 flex-shrink-0 basis-[100%] max-w-[100%] mb-16"
+              >
+                <h2 class="text-3xl font-bold relative">
+                  Contact Me
+                </h2>
+              </div>
+            </div>
+            <h3
+              class="contact-title text-center text-2xl mb-5 font-semibold pl-4 pr-4"
+            >
+              Having Any Query ?
+            </h3>
+            <h4
+              class="contact-sub-title text-center text-xl mb-16 pl-4 pr-4"
+            >
+              I'M AT YOUR SERVICE
+            </h4>
+            <div
+              class="row flex mb-15 sm:hidden xy:flex-col md:flex-col md:justify-center md:items-center"
+            >
+              <!-- Contact Info starts  -->
+              <div
+                class="contact-info pl-4 pr-4 mb-7 flex-grow-0 flex-shrink-0 basis-[25%] max-w-[25%] text-center sm:basis-[100%] sm:max-w-[100%] xy:basis-[100%] xy:max-w-[100%] md:basis-[100%] md:max-w-[100%] lg:basis-[25%] lg:max-w-[25%]"
+              >
+                <div class="icon inline-block">
+                  <i class="fa fa-phone text-lg "></i>
+                </div>
+                <h4
+                  class="text-xl font-semibold capitalize mt-4 mb-1"
+                >
+                  Call Us On
+                </h4>
+                <p class="text-lg font-normal">+91 9878XXXXX0</p>
+              </div>
+              <!-- Contact Info Ends  -->
+              <!-- Contact Info starts  -->
+              <div
+                class="contact-info pl-4 pr-4 mb-7 flex-grow-0 flex-shrink-0 basis-[25%] max-w-[25%] text-center sm:basis-[100%] sm:max-w-[100%] xy:basis-[100%] xy:max-w-[100%] md:basis-[100%] md:max-w-[100%] lg:basis-[15%] lg:max-w-[15%]"
+              >
+                <div class="icon inline-block">
+                  <i class="fa fa-map-marker-alt text-lg "></i>
+                </div>
+                <h4
+                  class="text-xl font-semibold capitalize mt-4 mb-1"
+                >
+                  Office
+                </h4>
+                <p class="text-lg font-normal">Bihar</p>
+              </div>
+              <!-- Contact Info Ends  -->
+              <!-- Contact Info starts  -->
+              <div
+                class="contact-info pl-4 pr-4 mb-7 flex-grow-0 flex-shrink-0 basis-[25%] max-w-[25%] text-center sm:basis-[100%] sm:max-w-[100%] xy:basis-[100%] xy:max-w-[100%] md:basis-[100%] md:max-w-[100%] lg:basis-[35%] lg:max-w-[35%]"
+              >
+                <div class inline-block="icon">
+                  <i class="fa fa-envelope text-lg "></i>
+                </div>
+                <h4
+                  class="text-xl font-semibold capitalize mt-4 mb-1"
+                >
+                  Mail
+                </h4>
+                <p class="text-lg font-normal">
+                  kushagrathegame1@gmail.com
+                </p>
+              </div>
+              <!-- Contact Info Ends  -->
+              <!-- Contact Info starts  -->
+              <div
+                class="contact-info pl-4 pr-4 mb-7 flex-grow-0 flex-shrink-0 basis-[25%] max-w-[25%] text-center sm:basis-[100%] sm:max-w-[100%] xy:basis-[100%] xy:max-w-[100%] md:basis-[100%] md:max-w-[100%] lg:basis-[25%] lg:max-w-[25%]"
+              >
+                <div class="inline-blockicon">
+                  <i class="fa fa-globe-europe text-lg "></i>
+                </div>
+                <h4
+                  class="text-xl font-semibold capitalize mt-4 mb-1"
+                >
+                  Website
+                </h4>
+                <p class="text-lg font-normal">
+                  www.qwertyuio.com
+                </p>
+              </div>
+              <!-- Contact Info Ends  -->
+            </div>
+            <h3
+              class="contact-title text-center text-2xl mb-5 mt-10 font-semibold pl-4 pr-4"
+            >
+              Send Me An Email
+            </h3>
+            <h4
+              class="contact-sub-title text-center text-xl mb-16 pl-4 pr-4"
+            >
+              Eager To Respond
+            </h4>
+
+            <!-- Contact Form Starts  -->
+            <div class="row">
+              <div class="contact-form pl-4 pr-4">
+                <div class="row flex p-4">
+                  <div class="form-item col-6 pl-4 pr-4 mb-4">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control text-base transition duration-300 focus:shadow-md focus:shadow-[#302e4d]/40 ease-in-out pt-2 pb-2 w-[100%] h-12 rounded-xl border-solid border-2 text-center"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-6 pl-4 pr-4 mb-4">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control text-base transition duration-300 focus:shadow-md focus:shadow-[#302e4d]/40 ease-in-out pt-2 pb-2 w-[100%] h-12 rounded-xl border-solid border-2 text-center"
+                        placeholder="Email id"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 pl-4 pr-4 mb-4">
+                    <div class="form-group p-4">
+                      <input
+                        type="text"
+                        class="form-control text-base transition duration-300 focus:shadow-md focus:shadow-[#302e4d]/40 ease-in-out pt-2 pb-2 w-[100%] h-12 rounded-xl border-solid border-2 text-center"
+                        placeholder="Subject"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 pl-4 pr-4 mb-4">
+                    <div class="form-group p-4">
+                      <textarea
+                        name=""
+                        class="form-control text-base transition duration-300 focus:shadow-md focus:shadow-[#302e4d]/40 ease-in-out pt-2 pb-2 w-[100%] h-32 rounded-xl border-solid border-2 text-center"
+                        id=""
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 pl-4 pr-4 mb-4 ml-4">
+                    <button
+                      type="submit"
+                      class="btn text-lg font-medium py-3 px-12 text-white rounded-3xl inline-block whitespace-nowrap border-none transition-all delay-200 ease-linear hover:scale-[1.05]"
+                    >
+                      SEND
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Contact Form Ends -->
+          </div>
+        </section>
+        <!-- Contact section Ends  -->
+      </div>
+      <!-- Main Content Ends   -->
+    </div>
+    <!-- Main container Ends  -->
+
+    <!-- Style Switcher Starts-->
+    <div
+      class="style-switcher fixed right-0 top-10 p-4 w-[200px] border-2 border-solid z-[101] rounded-md transition-all duration-300 ease-in-out translate-x-[100%]"
+    >
+      <div
+        class="style-switcher-toggler top-0 s-icon absolute h-10 w-10 text-center text-xl right-[100%] border-2 border-solid mr-6 cursor-pointer transition-all duration-300 ease-in-out rounded-[50%]"
+      >
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div
+        class="day-night s-icon top-[55px] absolute h-10 w-10 text-center text-xl right-[100%] border-2 border-solid mr-6 cursor-pointer transition-all duration-300 ease-in-out rounded-[50%]"
+      >
+        <i class="fas fa-moon"></i>
+      </div>
+      <h4
+        class="mt-0 mx-0 mb-2 text-lg font-semibold capitalize"
+      >
+        Theme Colors
+      </h4>
+      <div class="colors flex flex-wrap justify-between">
+        <span
+          class="color-1 bg-[red] inline-block h-7 w-7 rounded-[50%] border-2 border-solid"
+          onClick="setActiveStyle('color-1')"
+        ></span>
+        <span
+          class="color-2 bg-[#fa5b0f] inline-block h-7 w-7 rounded-[50%] border-2 border-solid"
+          onClick="setActiveStyle('color-2')"
+        ></span>
+        <span
+          class="color-3 bg-[#37b182] inline-block h-7 w-7 rounded-[50%] border-2 border-solid"
+          onClick="setActiveStyle('color-3')"
+        ></span>
+        <span
+          class="color-4 bg-[#1854b4] inline-block h-7 w-7 rounded-[50%] border-2 border-solid"
+          onClick="setActiveStyle('color-4')"
+        ></span>
+        <span
+          class="color-5 bg-[#f021b2] inline-block h-7 w-7 rounded-[50%] border-2 border-solid"
+          onClick="setActiveStyle('color-5')"
+        ></span>
+      </div>
+    </div>
+    <!-- Style Switcher Ends-->
+    <!-- Javascript Files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/style_switch.js"></script>
+  </body>
+</html>

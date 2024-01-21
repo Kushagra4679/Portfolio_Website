@@ -1,0 +1,14 @@
+/* .style-switcher
+{
+    position: fixed;
+    right: 0;
+    top: 60px;
+} */
+
+.style-switcher .s-icon i {
+  line-height: 35px;
+}
+
+.style-switcher.open {
+  transform: translateX(-25px);
+}
