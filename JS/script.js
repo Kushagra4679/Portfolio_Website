@@ -9,9 +9,9 @@
 // import Typed from 'typed.js'
 
 new Typed(".typing", {
-  strings: ["Web Developer", "Web Designer", "Youtuber", "And More..."],
+  strings: ["Web Developer", "Web Designer", "Youtuber", "And More. . ."],
   typeSpeed: 50,
-  loop: true,
   backDelay: 900,
   backSpeed: 30,
+  loop: true,
 });
